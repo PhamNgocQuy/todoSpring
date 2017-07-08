@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_5" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="jstl-1.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl-1.2.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-6.0.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-6.0.6.jar!/"/>
+	</lib>
+	<levels>
+		<level name="Maven: org.springframework:spring-webmvc:4.3.9.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-aop:4.3.9.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-beans:4.3.9.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-context:4.3.9.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-core:4.3.9.RELEASE" value="project"/>
+		<level name="Maven: commons-logging:commons-logging:1.2" value="project"/>
+		<level name="Maven: org.springframework:spring-expression:4.3.9.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-web:4.3.9.RELEASE" value="project"/>
+		<level name="Maven: jstl:jstl:1.2" value="project"/>
+	</levels>
+</component>
